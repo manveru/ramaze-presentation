@@ -1,0 +1,16 @@
+== Depends on Rack
+
+Rack is the only dependency of Innate
+
+Innate is the only dependency of Ramaze.
+
+[source,ruby]
+--------------------------------------------------------------------------------
+require 'rack'
+
+hello = lambda do |env| 
+  [200, {'Content-Type' => 'text/plain', 'Content-Length' => 13}, ['Hello, World!']]
+end
+
+Rack::Handler::WEBrick.run(hello, :Host => '0.0.0.0', :Port => 8080)
+--------------------------------------------------------------------------------

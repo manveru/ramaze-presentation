@@ -1,0 +1,9 @@
+== Any Ruby
+
+* MRI
+* KRI
+* JRuby
+* Rubinius
+* ...
+
+#{a :any_orm}

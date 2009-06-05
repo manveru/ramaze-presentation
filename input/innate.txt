@@ -1,0 +1,16 @@
+== Innate
+
+The core of Ramaze, 1931 lines of clean code, tightly integrated with Rack.
+
+[source,ruby]
+--------------------------------------------------------------------------------
+class Hello
+  Innate.node '/'
+
+  def index
+    "Hello, World!"
+  end
+end
+
+Innate.start :port => 8080
+--------------------------------------------------------------------------------

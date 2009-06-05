@@ -1,0 +1,12 @@
+== Any ORM
+
+* ActiveRecord
+* CouchRest
+* DataMapper
+* KirbyBase
+* M4DBI
+* Sequel
+* None?
+* ...
+
+#{a :any_templating}

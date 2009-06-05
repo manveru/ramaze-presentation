@@ -1,0 +1,12 @@
+== The Innate beauty of Ramaze
+=== Introduction
+
+Michael 'manveru' Fellinger
+
+Gets his mail at manveru@rubyists.com
+
+Online at http://manveru.net, irc://freenode.net/#ramaze
+
+Works at http://rubyists.com.
+
+#{a "Motto", :ramaze_motto}

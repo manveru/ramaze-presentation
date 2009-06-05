@@ -1,0 +1,16 @@
+== Hello, World!
+
+[source,ruby]
+--------------------------------------------------------------------------------
+require 'ramaze'
+
+class Hello < Ramaze::Controller
+  def index
+    "Hello, World!"
+  end
+end
+
+Ramaze.start
+--------------------------------------------------------------------------------
+
+#{a "Parameter handling", :params}
