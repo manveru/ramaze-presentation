@@ -1,0 +1,23 @@
+== Apps
+
+Combining so-called apps in Ramaze gives you reusability, you can serve apps in
+the same process to share configuration and database connections while keeping
+the memory overhead minimal.
+
+[source,ruby]
+--------------------------------------------------------------------------------
+module Wiki
+  class Pages < Ramaze::Controller
+    map '/', :wiki
+  end
+end
+
+module Blog
+  class Articles < Ramaze::Controller
+    map '/', :blog
+  end
+end
+
+Ramaze::App[:wiki].location = '/wiki'
+Ramaze::App[:blog].location = '/blog'
+--------------------------------------------------------------------------------

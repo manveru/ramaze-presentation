@@ -7,5 +7,3 @@
 * Minimal dependencies
 * Open development
 * Full BDD (Behaviour Driven Design)
-
-#{a "Dependencies", :dependencies}

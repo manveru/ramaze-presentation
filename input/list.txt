@@ -1,0 +1,3 @@
+== List Of Slides
+
+#{ list_of_slides }

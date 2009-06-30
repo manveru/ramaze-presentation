@@ -1,0 +1,41 @@
+@import blueprint/screen.sass
+@import blueprint/modules/liquid.sass
+@import blueprint/modules/scaffolding.sass
+@import blueprint/modules/form.sass
+@import compass/reset.sass
+@import compass/utilities.sass
+ 
++blueprint-typography("body.blueprint")
+
+body.blueprint
+  +blueprint-scaffolding
+  :font-size 1em
+  .asciidoc
+    +container
+  .listingblock
+    :text-align left
+    :padding 0.5em
+    :border 2px dashed #ddd
+  .quoteblock
+    :font-weight bold
+    .quoteblock-content
+    .quoteblock-attribution
+      :text-align right
+  .nav
+    :position absolute
+    :bottom 2em
+    +column(24)
+    :text-align center
+    .forward
+      +column(12)
+    .back
+      +column(12,true)
+  h2, h3
+    :font-size 2em
+    :text-align center
+  p
+    :text-align center
+  ul
+    :list-style-type none
+
+body#index

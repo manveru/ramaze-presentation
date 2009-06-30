@@ -7,6 +7,4 @@ Gets his mail at manveru@rubyists.com
 
 Online at http://manveru.net, irc://freenode.net/#ramaze
 
-Works at http://rubyists.com.
-
-#{a "Motto", :ramaze_motto}
+CTO and co-founder of http://rubyists.com  -- The Rubyists LLC.

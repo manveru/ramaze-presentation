@@ -5,5 +5,3 @@
 * JRuby
 * Rubinius
 * ...
-
-#{a :any_orm}

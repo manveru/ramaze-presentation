@@ -1,5 +1,8 @@
 == Parameter Handling
 
+Utilizing Ruby's method parameters for natural look and intuitive behaviour on
+action dispatch.
+
 [source,ruby]
 --------------------------------------------------------------------------------
 class Calculator < Ramaze::Controller
@@ -11,10 +14,8 @@ class Calculator < Ramaze::Controller
     a_number.to_i / another_number.to_i
   end
 
-  def sum(*numbers)
-    numbers.inject(0){|sum, num| sum + num.to_i }
+  def sum(first = 0, *numbers)
+    numbers.inject(first.to_i){|sum, num| sum + num.to_i }
   end
 end
 --------------------------------------------------------------------------------
-
-#{a "Innate", :innate}
