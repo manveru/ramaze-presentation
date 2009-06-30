@@ -1,12 +1,16 @@
+list	List Of Slides
 index	The Innate beauty of Ramaze
-any_orm	Any ORM
+ramaze_motto	The Motto
+philosophy	Philosophy
+hello	Hello, World!
 any_ruby	Any Ruby
 any_templating	Any Templating Engine
-app	Apps
-dependencies	Depends on Rack
-hello	Hello, World!
+any_orm	Any ORM
 innate	Innate
+dependencies	Depends on Rack
 params	Parameter Handling
-philosophy	Philosophy
-ramaze_motto	The Motto
-list	List Of Slides
+app	Apps
+spec	Bacon, Rack::Test, Webrat
+spec_rack_test	Bacon and Rack::Test
+sequel	Sequel
+configuration	Configuration

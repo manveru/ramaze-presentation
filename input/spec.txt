@@ -1,0 +1,25 @@
+== Bacon, Rack::Test, Webrat
+
+Testing with Ramaze is a breeze, easy integration with many testing-frameworks.
+
+Here is a little example using Webrat, the latest masterpiece from brynary.
+
+[source,ruby]
+--------------------------------------------------------------------------------
+require 'app'
+require 'ramaze/spec/bacon'
+
+describe 'Authentication' do
+  behaves_like :webrat
+
+  it 'logs me in' do
+    visit Wiki::Auth.r(:login).to_s
+
+    fill_in 'Username', :with => 'manveru'
+    fill_in 'Password', :with => 'letmein'
+    check 'Remember me'
+
+    click_button 'Log in'
+  end
+end
+--------------------------------------------------------------------------------

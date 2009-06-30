@@ -6,13 +6,16 @@ class Presenter < Ramaze::Controller
   helper :xhtml, :cache
   layout :default
 
+  before_all do
+    system('rake', 'build')
+  end
+
   def index(page = 'index')
     @page = page
     file = "output/#{page}.html"
 
     cache_value(file, :ttl => 1) do
-      system('rake', file)
-      File.read(file) << nav_links
+      nav_links + File.read(file)
     end
   end
 
@@ -27,7 +30,7 @@ class Presenter < Ramaze::Controller
     @order = File.readlines('order').map{|l| l.strip }
     @name = action.params.first || 'index'
 
-    <<-HTML
+    <<-'HTML'
 <div class="nav">
   <div class="back">#{link_back}</div>
   <div class="forward">#{link_forward}</div>

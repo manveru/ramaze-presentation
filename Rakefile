@@ -30,7 +30,6 @@ task :build do
     title = Nokogiri::HTML(File.read(html)).at('h2').inner_html
     titles[basename] = title
   end
-  p titles
 
   File.open('guide', 'w+') do |guide|
     File.open('order') do |order|

@@ -1,0 +1,24 @@
+== Bacon and Rack::Test
+
+All specs in Ramaze and Innate are using Rack::Test, it's not as slick as
+Webrat, but fairly fast and light-weight and polite by staying out of the way.
+
+[source,ruby]
+--------------------------------------------------------------------------------
+require 'ramaze'
+require 'ramaze/spec/bacon'
+
+class Hello < Ramaze::Controller
+  def index
+    'Hello, World!'
+  end
+end
+
+describe Hello do
+  behaves_like :rack_test
+
+  should 'greet me' do
+    get('/').body.should == 'Hello, World!'
+  end
+end
+--------------------------------------------------------------------------------

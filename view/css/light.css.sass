@@ -14,7 +14,7 @@ body.blueprint
     +container
   .listingblock
     :text-align left
-    :padding 0.5em
+    :padding 0 0.5em
     :border 2px dashed #ddd
   .quoteblock
     :font-weight bold
@@ -22,13 +22,12 @@ body.blueprint
     .quoteblock-attribution
       :text-align right
   .nav
-    :position absolute
-    :bottom 2em
     +column(24)
-    :text-align center
     .forward
+      :text-align right
       +column(12)
     .back
+      :text-align left
       +column(12,true)
   h2, h3
     :font-size 2em

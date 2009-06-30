@@ -3,10 +3,14 @@ index
 ramaze_motto
 philosophy
 hello
-innate
-dependencies
-any_orm
 any_ruby
 any_templating
+any_orm
+innate
+dependencies
 params
 app
+spec
+spec_rack_test
+sequel
+configuration

@@ -1,0 +1,43 @@
+== Sequel
+
+My favorite ORM when it comes to relational databases is Sequel, so I'll show
+you a little example for that.
+
+[source,ruby]
+--------------------------------------------------------------------------------
+require 'ramaze'
+require 'sequel'
+
+DB = Sequel.sqlite
+
+class Article < Sequel::Model
+  plugin :schema
+
+  set_schema do
+    primary_key :id
+    varchar :title
+    String :text
+  end
+
+  create_table?
+end
+
+class Articles < Ramaze::Controller
+  helper :paginate
+
+  def index
+    @pager = paginate(Article.dataset, :limit => 10)
+    <<-'HTML'
+<?r @pager.each do |article| ?>
+  <div class="article">
+    <div class="title">#{h article.title}</div>
+    <div class="text">#{h article.text}</div>
+  </div>
+<?r end ?>
+#{@pager.navigation if @pager.needed?}
+    HTML
+  end
+end
+
+Ramaze.start
+--------------------------------------------------------------------------------

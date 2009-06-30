@@ -1,0 +1,19 @@
+== Configuration
+
+There are lots of ways to tune and tweak Ramaze in your image. We try to
+provide intuitive defaults where possible, and you won't have to start by
+modifying any of configuration files (*hint* there aren't any).
+
+* Multiple application/view/layout roots
+* Helper options
+* Custom middleware (modes)
+* App specific configuration
+* Traits
+
+[source,ruby]
+--------------------------------------------------------------------------------
+Ramaze.options.prefix = '/'
+Ramaze.options.adapter.handler = :thin
+Ramaze::App[:blog].options.roots = ['/home/manveru/blog']
+Ramaze::Helper::Paginate.trait[:paginate][:limit] = 5
+--------------------------------------------------------------------------------
