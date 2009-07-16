@@ -1,4 +1,4 @@
-== Any ORM
+== Any ORM 全てのORMを使用できます(THINK: make it shorter or meaningful?)
 
 * ActiveRecord
 * CouchRest

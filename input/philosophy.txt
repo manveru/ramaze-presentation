@@ -1,9 +1,9 @@
-== Philosophy
+== Philosophy 哲学
 
-* KISS (Keep it simple, stupid)
-* YAGNI (You ain't gonna need it)
+* KISS (Keep it simple, stupid) 極力シンプルに
+* YAGNI (You ain't gonna need it) 必要なものだけ
 * MINSWAN (Matz is nice, so we are nice)
-* Modular design
-* Minimal dependencies
-* Open development
-* Full BDD (Behaviour Driven Design)
+* Modular design モジュール構造(デザイン？)
+* Minimal dependencies 最小限の依存関係
+* Open development オープンな開発
+* Full BDD (Behaviour Driven Design) 完全なテスト駆動開発

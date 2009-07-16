@@ -1,6 +1,7 @@
-== Innate
+== Innate イネート
 
 The core of Ramaze, 1931 lines of clean code, tightly integrated with Rack.
+ラマゼの心臓部、僅か1931行の簡潔なコードで書かれ、ラック(Rack)と密接に統合されています。
 
 [source,ruby]
 --------------------------------------------------------------------------------

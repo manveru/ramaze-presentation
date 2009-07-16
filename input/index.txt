@@ -1,7 +1,7 @@
-== The Innate beauty of Ramaze
-=== Introduction
+== The Innate beauty of Ramaze イネート・ビューティ・オブ・ラマゼ
+=== Introduction イントロダクション
 
-Michael 'manveru' Fellinger
+Michael 'manveru' Fellinger マイケル "マンヴェル" フェリンジャー
 
 Gets his mail at manveru@rubyists.com
 

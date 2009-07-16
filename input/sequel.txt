@@ -3,6 +3,9 @@
 My favorite ORM when it comes to relational databases is Sequel, so I'll show
 you a little example for that.
 
+リレーショナル・データベースで好きなORMと聞かれたら、それはSequelです。
+ラマゼでSequelをどう使うか、簡単に説明します。
+
 [source,ruby]
 --------------------------------------------------------------------------------
 require 'ramaze'

@@ -1,7 +1,9 @@
-== Parameter Handling
+== Parameter Handling パラメータの扱い
 
 Utilizing Ruby's method parameters for natural look and intuitive behaviour on
 action dispatch.
+
+Rubyのメソッドパラメータを自然 直感的 利用 アクションディスパッチ (TODO:)
 
 [source,ruby]
 --------------------------------------------------------------------------------

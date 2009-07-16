@@ -1,4 +1,4 @@
-== Any Ruby
+== Any Ruby 様々なRubyで動きます
 
 * MRI
 * KRI

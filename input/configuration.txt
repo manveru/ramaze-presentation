@@ -1,14 +1,19 @@
-== Configuration
+== Configuration 設定・コンフィグレーション
 
 There are lots of ways to tune and tweak Ramaze in your image. We try to
 provide intuitive defaults where possible, and you won't have to start by
 modifying any of configuration files (*hint* there aren't any).
 
-* Multiple application/view/layout roots
-* Helper options
-* Custom middleware (modes)
-* App specific configuration
-* Traits
+ラマゼには、あなた好みにする様々の方法が用意されています。
+しかし、デフォルトとして一番有用な設定を施してありますので、最初から設
+定ファイルをいじる必要はありません。(ヒント：設定ファイルなんてありま
+せんから!)
+
+* Multiple application/view/layout roots 複数のアプリ、ビュー、レイアウトのルート(FIXME)
+* Helper options ヘルパーオプション
+* Custom middleware (modes) カスタム・ミドルウェア (実行モードなど)
+* App specific configuration アプリ固有の設定
+* Traits トレイト(TODO)
 
 [source,ruby]
 --------------------------------------------------------------------------------
