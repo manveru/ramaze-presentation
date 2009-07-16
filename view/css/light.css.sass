@@ -25,10 +25,22 @@ body.blueprint
     +column(24)
     .forward
       :text-align right
+      +column(6)
+    .progress
       +column(12)
+      :text-align center
+      .bar-total
+        +column(10)
+        :background #dfd
+      .bar-now
+        :background #0f0
+      .bar-start
+        +column(1)
+      .bar-end
+        +column(1,true)
     .back
       :text-align left
-      +column(12,true)
+      +column(6,true)
   h2, h3
     :font-size 2em
     :text-align center

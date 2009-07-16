@@ -33,6 +33,7 @@ class Presenter < Ramaze::Controller
     <<-'HTML'
 <div class="nav">
   <div class="back">#{link_back}</div>
+  #{progress_bar}
   <div class="forward">#{link_forward}</div>
 </div>
   HTML
@@ -48,6 +49,20 @@ class Presenter < Ramaze::Controller
     if forward = @order[@order.index(@name) + 1]
       a @guide[forward], forward
     end
+  end
+
+  def progress_bar
+    now = @order.index(@name) + 1
+    total = @order.size
+    width = ((100.0 / total) * now).to_i
+
+    "<div class='progress'>
+      <div class='bar-start'>1</div>
+      <div class='bar-total'>
+        <div class='bar-now' style='width:#{width}%'>#{now}</div>
+      </div>
+      <div class='bar-end'>#{total}</div>
+     </div>"
   end
 end
 
