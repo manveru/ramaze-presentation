@@ -23,14 +23,18 @@ body.blueprint
       :text-align right
   .nav
     +column(24)
+    :height 1.5em
+    .forward, .back
+      a
+        :display block
+        :overflow hidden
     .forward
       :text-align right
       +column(6)
     .progress
-      +column(12)
       :text-align center
       .bar-total
-        +column(10)
+        +column(9)
         :background #dfd
       .bar-now
         :background #0f0
