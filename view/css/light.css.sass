@@ -1,14 +1,14 @@
 @import blueprint/screen.sass
 @import blueprint/modules/liquid.sass
-@import blueprint/modules/scaffolding.sass
 @import blueprint/modules/form.sass
 @import compass/reset.sass
 @import compass/utilities.sass
  
 +blueprint-typography("body.blueprint")
 
+!blueprint_liquid_container_min_width = 640px
+
 body.blueprint
-  +blueprint-scaffolding
   :font-size 1em
   .asciidoc
     +container
