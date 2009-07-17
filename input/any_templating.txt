@@ -1,7 +1,9 @@
-== Any Templating Engine
+== Any Templating Engine テンプレート・エンジン
 
 Ramaze supports a wide range of templating engines, and makes it easy to add
 your own.
+ラマゼは多彩なテンプレート・エンジンをサポートします。また、新たに自分
+で追加することも容易です。
 
 ERB, Erubis, Etanni, Ezamar, Gestalt, Haml, Liquid, Maruku, Nagoro, Redcloth,
 Remarkably, Sass, Tagz, Tenjin, ...

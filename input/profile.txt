@@ -1,0 +1,10 @@
+== Profile プロフィール
+   
+  - Michael 'Manveru' Fellinger マイケル "マンヴェル" フェリンガー
+
+  - Tadahiko 'kiko' Uehara 上原 忠彦
+    Tadahiko Uehara is an addicted user and a committer of Ramaze.
+    He has been working as a freelance 3D artist in the field of Film, TV
+    and Video Games for more than 10 years. In recent years, his interest
+    has moved toward Information Technology and had chosen Ruby and Ramaze
+    as his favorite tools.

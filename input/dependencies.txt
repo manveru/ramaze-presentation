@@ -1,8 +1,8 @@
-== Depends on Rack
+== Depends on Rack Rack次第
 
-Rack is the only dependency of Innate
+Rack is the only dependency of Innate イネートが必要とするのはRackだけです。
 
-Innate is the only dependency of Ramaze.
+Innate is the only dependency of Ramaze. ラマゼが必要とするのはイネートだけ。
 
 [source,ruby]
 --------------------------------------------------------------------------------

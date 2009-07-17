@@ -1,0 +1,7 @@
+== Time table タイムテーブル
+
+  - Short but real intro of Ramaze - kiko 5min
+  - Ramaze, for Technical minded people - Michael 13min (ASK: which
+    manv prefer, Michael or manveru?)
+  - Fun with live coding - Michael 17min
+  - Q & A - Michael & kiko 5min

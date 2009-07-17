@@ -1,14 +1,21 @@
-== The Motto
+== The Motto モットー
 
 Ramaze is a modular, light, and easy to use web application framework.
+ラマゼはモジュラー型で軽量で簡単に使えるウェブフレームワークです。
 
 Tries to stay in the background so you can get your job done.
+バックグラウンドに滞在してあなたの仕事を助けます。
 
 Sticks to the Ruby as designed by Matz.
+MatzがデザインしたRubyに従っています。
 
 Configurable convention, sane defaults out of the box.
+変更の可能な「ルール」、吟味されたデフォルトの設定
+
 
 [quote,'William of Ockham (ca. 1285-1349)']
 ________________________________________________________________________________
 What can be done with fewer assumptions is done in vain with more.
 ________________________________________________________________________________
+
+(TODO: ask mika for help?)

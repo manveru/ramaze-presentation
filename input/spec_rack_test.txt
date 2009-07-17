@@ -3,6 +3,9 @@
 All specs in Ramaze and Innate are using Rack::Test, it's not as slick as
 Webrat, but fairly fast and light-weight and polite by staying out of the way.
 
+ラマゼとイネートのspecは全てRack::Testが使われています。
+Webrat並に素晴しいだけでなく、とても速くて軽く、 (？？)
+
 [source,ruby]
 --------------------------------------------------------------------------------
 require 'ramaze'
