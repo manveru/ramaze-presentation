@@ -6,7 +6,6 @@
   - 質疑応答 5min
 
   - Short introduction of Ramaze - kiko 5min
-  - Ramaze, for Technical minded people - Michael 13min (ASK: which
-    manv prefer, Michael or manveru?)
+  - Ramaze, for Technical minded people - Michael 13min
   - Fun with live coding - Michael 17min
   - Q & A 5min

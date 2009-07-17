@@ -1,0 +1,20 @@
+== Quick introduction 1/2
+
+=== Philosophy
+- 組み合わせ自由で軽量、簡単に使えるウェブフレームワークです。
+- 独自のルールはありません。 規約は「Ruby」です。
+- ですから、Rubyが使える人には、すんなりと使えるでしょう。
+- すなわち、Rubyが好きな人はRamazeも好きになります。 :)
+
+- Ramaze is a modular, light, andeasy to use web application framework.
+- Tries to stay in the background so you can get your job done.
+- Sticks to the Ruby as designed by Matz.
+- Configurable convention, sane defaults out of the box.
+
+[quote,'William of Ockham (ca. 1285-1349)']
+________________________________________________________________________________
+What can be done with fewer assumptions is done in vain with more.
+________________________________________________________________________________
+
+(TODO: ask mika for help?)
+

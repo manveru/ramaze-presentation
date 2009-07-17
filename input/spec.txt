@@ -1,10 +1,13 @@
 == Bacon, Rack::Test, Webrat
 
 Testing with Ramaze is a breeze, easy integration with many testing-frameworks.
-ラマゼのテストはとても簡単です。また、様々なテスト用フレームワークとの連携も簡単です。(TODO:do not repeat 簡単)
+
+Ramazeのテストはとても簡単です。様々なテスト用フレームワークとの連携も
+容易になっています。
 
 Here is a little example using Webrat, the latest masterpiece from brynary.
-Webratという、brynary氏による素晴しいアプリとの連携をしてみましょう。(たったこれだけ!)
+
+Webratという、brynary氏による素晴しいテストフレームワークとの連携をしてみましょう。
 
 [source,ruby]
 --------------------------------------------------------------------------------

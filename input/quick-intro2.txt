@@ -1,0 +1,10 @@
+== Quick introduction 2/2
+
+=== The Motto
+* KISS (Keep it simple, stupid) 極力シンプルに
+* YAGNI (You ain't gonna need it) 必要なものだけ
+* MINSWAN (Matz is nice, so we are nice)
+* Modular design モジュール型デザイン
+* Minimal dependencies 最小限の依存関係
+* Open development オープンな開発
+* Full BDD (Behaviour Driven Design) 完全なテスト駆動開発

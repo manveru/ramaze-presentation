@@ -1,20 +1,14 @@
 == Profile
 
-=== Michael \'Manveru\' Fellinger マイケル \'マンヴェル\' フェリンガー
+=== Michael \'manveru\' Fellinger マイケル・フェリンガー
 
-  Michael Fellinger is co-founder of The Rubyists LLC, and works as
-  CTO in diverse areas around telephony, system-administration, and
-  web development, always trying to improve the world. He is creator
+  Michael Fellinger is co-founder of The Rubyists LLC. He is creator
   and maintainer of the Ramaze and Innate web application frameworks
-  and several other open-source libralries. For 5 years now he is
-  enjoying the freedom that Ruby provides. When he's not just hacking
-  you might find him spending time with his family or on IRC(#ramaze
-  on freenode). He lives in Japan/Tokyo since 2006.
+  and several other open-source libraries. He enjoys the freedom that
+  Ruby provides.  He lives in Japan/Tokyo since 2006.
 
 === Tadahiko \'kiko\' Uehara 上原 忠彦
 
   Tadahiko Uehara is an addicted user and a committer of Ramaze.  He
   has been working as a freelance 3D artist in the field of Film, TV
-  and Video Games for more than 10 years. In recent years, his
-  interest has moved toward Information Technology and had chosen Ruby
-  and Ramaze as his favorite tools.
+  and Video Games for more than 10 years.

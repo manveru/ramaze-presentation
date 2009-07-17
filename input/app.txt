@@ -4,9 +4,8 @@ Combining so-called apps in Ramaze gives you reusability, you can serve apps in
 the same process to share configuration and database connections while keeping
 the memory overhead minimal.
 
-Appsという概念により、あなたの作成したアプリを 再利用  (FIXME)
-同一のプロセス上で、設定やデータベース接続を共有でき最小限のメモリで運
-用できます。
+Appsという概念により、作成したアプリを再利用可能です。
+同一のプロセス上で、設定やデータベース接続を共有し、最小限のメモリで運用できます。
 
 [source,ruby]
 --------------------------------------------------------------------------------
