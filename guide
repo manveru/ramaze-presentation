@@ -14,3 +14,4 @@ spec	Bacon, Rack::Test, Webrat
 spec_rack_test	Bacon and Rack::Test
 sequel	Sequel
 configuration	Configuration
+console	Ramaze console

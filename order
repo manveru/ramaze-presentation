@@ -14,3 +14,4 @@ spec
 spec_rack_test
 sequel
 configuration
+console
