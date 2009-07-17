@@ -1,4 +1,4 @@
-== Philosophy 哲学
+== Philosophy
 
 * KISS (Keep it simple, stupid) 極力シンプルに
 * YAGNI (You ain't gonna need it) 必要なものだけ

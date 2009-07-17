@@ -1,7 +1,12 @@
-== Time table タイムテーブル
+== Time table
 
-  - Short but real intro of Ramaze - kiko 5min
+  - Ramazeの簡単な紹介 - kiko 5min
+  - 開発者が語るInnate/Ramaze - manveru 13min
+  - 実際に作ってみる - manveru 17min
+  - 質疑応答 5min
+
+  - Short introduction of Ramaze - kiko 5min
   - Ramaze, for Technical minded people - Michael 13min (ASK: which
     manv prefer, Michael or manveru?)
   - Fun with live coding - Michael 17min
-  - Q & A - Michael & kiko 5min
+  - Q & A 5min

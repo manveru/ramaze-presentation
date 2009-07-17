@@ -1,9 +1,9 @@
-== Pronounciation 読みかた
+== Pronounciation
 
- Ra Ma Ze (FIXME: ra-mah-ze.)
+= Ra Ma Ze (FIXME: ra-mah-ze.)
 
- Ruby + Amaze
+= Ruby + Amaze
 
- R Amaze
+= R Amaze
 
- ラ ・ マ ・ ゼ
+= ラ ・ マ ・ ゼ

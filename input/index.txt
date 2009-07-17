@@ -1,10 +1,14 @@
-== The Innate beauty of Ramaze イネート・ビューティ・オブ・ラマゼ ラマゼ・天性(イネート)の美しさ
-=== Introduction イントロダクション
+== The Innate beauty of Ramaze 
+=== Introduction
 
-Michael 'manveru' Fellinger マイケル "マンヴェル" フェリンガー
+Michael \'manveru\' Fellinger
 
 Gets his mail at manveru@rubyists.com
 
 Online at http://manveru.net, irc://freenode.net/#ramaze
 
 CTO and co-founder of http://rubyists.com  -- The Rubyists LLC.
+
+and
+
+Tadahiko \'kiko\' Uehara kikofx@gmail.com
