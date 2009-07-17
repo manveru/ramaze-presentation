@@ -1,17 +1,13 @@
 list	List Of Slides
 index	The Innate beauty of Ramaze
-ramaze_motto	The Motto
-philosophy	Philosophy
+profile	Profile
+timetable	Time table
+quick-intro	Quick introduction 1/2
 hello	Hello, World!
-any_ruby	Any Ruby
-any_templating	Any Templating Engine
-any_orm	Any ORM
+quick-intro2	Quick introduction 2/2
 innate	Innate
 dependencies	Depends on Rack
 params	Parameter Handling
 app	Apps
 spec	Bacon, Rack::Test, Webrat
-spec_rack_test	Bacon and Rack::Test
-sequel	Sequel
-configuration	Configuration
 console	Ramaze console

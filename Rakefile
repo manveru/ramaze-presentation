@@ -8,7 +8,7 @@ rule(/\.html$/ => [proc{|task_name|
   source = File.join('input', "#{base}.txt")
 }]) do |t|
   sh "asciidoc --no-header-footer -o #{t.name} #{t.source}"
-end    
+end
 
 def title_of(name, names)
   names.empty? ? title : [[name, title], build(names)]
@@ -27,7 +27,8 @@ task :build do
 
     Rake::Task[html].invoke
 
-    title = Nokogiri::HTML(File.read(html)).at('h2').inner_html
+    text = File.read(html)
+    title = Nokogiri::HTML(text).at('h2').inner_html
     titles[basename] = title
   end
 
