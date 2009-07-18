@@ -6,8 +6,22 @@ class Presenter < Ramaze::Controller
   helper :xhtml, :cache
   layout :default
 
+  @guide = Hash[File.readlines('guide').map{|l| l.strip.split("\t") }]
+  @order = File.readlines('order').map{|l| l.strip }
+
+  class << self
+    attr_reader :guide, :order
+  end
+
+  def guide; self.class.guide; end
+  def order; self.class.order; end
+
   before_all do
+    # comment out this call for production :)
     system('rake', 'build')
+
+    @name = action.params.first || 'index'
+    @now = order.index(@name) + 1
   end
 
   def index(page = 'index')
@@ -26,10 +40,6 @@ class Presenter < Ramaze::Controller
   end
 
   def nav_links
-    @guide = Hash[File.readlines('guide').map{|l| l.strip.split("\t") }]
-    @order = File.readlines('order').map{|l| l.strip }
-    @name = action.params.first || 'index'
-
     <<-'HTML'
 <div class="nav">
   <div class="back">#{link_back}</div>
@@ -40,20 +50,20 @@ class Presenter < Ramaze::Controller
   end
 
   def link_back
-    if back = @order[@order.index(@name) - 1]
-      a @guide[back], back
+    if back = order[order.index(@name) - 1]
+      a guide[back], back
     end
   end
 
   def link_forward
-    if forward = @order[@order.index(@name) + 1]
-      a @guide[forward], forward
+    if forward = order[order.index(@name) + 1]
+      a guide[forward], forward
     end
   end
 
   def progress_bar
-    now = @order.index(@name) + 1
-    total = @order.size
+    now = order.index(@name) + 1
+    total = order.size
     width = ((100.0 / total) * now).to_i
 
     "<div class='progress'>
